@@ -1990,11 +1990,11 @@
                                     </li>
                                     <li id="menu-item-440"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-440"><a
-                                            target="_blank" rel="noopener" href="#">Services</a>
+                                             rel="noopener" href="{{('/services')}}">Services</a>
                                     </li>
                                     <li id="menu-item-666"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666">
-                                        <a href="#">Team</a>
+                                        <a href="{{('/team')}}">Team</a>
                                     </li>
                                     <li id="menu-item-398"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398">
@@ -2050,9 +2050,9 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-440"><a
-                                            target="_blank" href="#">Servies</a></li>
+                                             href="{{('/services')}}">Servies</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666">
-                                        <a href="#">Team</a>
+                                        <a href="{{('/team')}}">Team</a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398">
                                         <a href="#">Contact</a>
