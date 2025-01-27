@@ -25,7 +25,7 @@
                                                         href="#">Services</a></li>
                                                 <li id="menu-item-665"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665">
-                                                    <a href="#">Team</a></li>
+                                                    <a href="#">About Us</a></li>
                                                 <li id="menu-item-258"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258">
                                                     <a href="#">Contact</a></li>
@@ -140,6 +140,52 @@
     </div> <!-- end page content -->
 
 
+
+    <!-- Modal -->
+<div class="modal fade" id="bookNowModal" tabindex="-1" aria-labelledby="bookNowModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bookNowModalLabel">Book Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Form -->
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="services" class="form-label">Services</label>
+                        <select class="form-select" id="services" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="hair">Hair</option>
+                            <option value="skin">Skin</option>
+                        </select>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Booking Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <!-- if using safari, load hero background video -->
 
     <!-- <script>
@@ -151,6 +197,7 @@
             });
         }
     </script> -->
-
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

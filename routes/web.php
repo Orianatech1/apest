@@ -17,3 +17,7 @@ Route::get('/team', function () {
 Route::get('/services', function () {
     return view('pages.services');
 });
+
+Route::get('/aesthtic-service', function () {
+    return view('pages.services.aesthtic-service');
+});

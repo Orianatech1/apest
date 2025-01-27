@@ -32,6 +32,9 @@
         type='text/css' media='all' />
     <link rel='stylesheet' id='wp-block-library-css'
         href='wp/wp-includes/css/dist/block-library/style.min1e39.css?ver=6.4.2' type='text/css' media='all' />
+
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style id='classic-theme-styles-inline-css' type='text/css'>
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -1925,7 +1928,7 @@
                             <ul id="menu-utility-left" class="menu">
                                 <li id="menu-item-13"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a
-                                        target="_blank" rel="noopener" href="#">Camp Pune 411001</a></li>
+                                        target="_blank" rel="noopener" href="#">Aurora Towers Camp Pune-01  </a></li>
                             </ul>
                         </div>
                         <div class="header__utility--right">
@@ -1934,7 +1937,7 @@
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 menu-item--icon-text">
                                     <a href="tel:3053631609"><svg class="icon icon-phone">
                                             <use href="#icon-phone"></use>
-                                        </svg>1234567890</a>
+                                        </svg>75 99 32 9999</a>
                                 </li>
                             </ul>
                         </div>
@@ -1965,9 +1968,14 @@
                             <div class="menu-primary-container">
                                 <ul id="menu-primary" class="sub--pos-left sub--align-left">
                                     <li id="menu-item-438"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-438">
-                                        <a href="#">AP Services</a>
-                                        <ul class="sub-menu">
+                                        class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                        <a href="#">Home</a>
+                                        
+                                    </li>
+                                    <li id="menu-item-440"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-440 "><a
+                                             rel="noopener" href="{{('/services')}}">Services</a>
+                                             <!-- <ul class="sub-menu">
                                             <li id="menu-item-397"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
                                                 <a href="#">Facial Services</a>
@@ -1986,27 +1994,25 @@
                                                 <a href="#">Men’s
                                                     Aesthetics</a>
                                             </li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-440"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-440"><a
-                                             rel="noopener" href="{{('/services')}}">Services</a>
+                                        </ul> -->
                                     </li>
                                     <li id="menu-item-666"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666">
-                                        <a href="{{('/team')}}">Team</a>
+                                        <a href="{{('/team')}}">About Us</a>
                                     </li>
                                     <li id="menu-item-398"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398">
                                         <a href="{{('/contact')}}">Contact</a>
                                     </li>
                                     <li id="menu-item-441"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-441"><a
-                                            target="_blank" rel="noopener" href="#">Book A
-                                            Service</a></li>
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-441 "><a
+                                            rel="noopener" href="#" data-bs-toggle="modal" data-bs-target="#bookNowModal">Book A Service</a></li>
                                 </ul>
                             </div>
-                        </nav><!-- /#menu-primary -->
+                        </nav>
+                        
+                        
+                        <!-- /#menu-primary -->
                         <nav id="mobile-navigation" class="mobile__nav text--dark" style="background: #FFFFFF">
                             <div class="mobile__nav-header">
                                 <a href="{{('/')}}" rel="home">
@@ -2025,7 +2031,7 @@
                                 <ul id="menu-primary-1" class="menu">
                                     <li
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-438">
-                                        <a href="#">AP Services</a><button class="sub-menu--toggle"><span
+                                        <a href="#">Home</a><button class="sub-menu--toggle"><span
                                                 class="screen-reader-text">show
                                                 submenu</span></button>
                                         <ul class="sub-menu">
@@ -2052,18 +2058,19 @@
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-440"><a
                                              href="{{('/services')}}">Servies</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666">
-                                        <a href="{{('/team')}}">Team</a>
+                                        <a href="{{('/team')}}">About Us</a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398">
                                         <a href="#">Contact</a>
                                     </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-441"><a
-                                            target="_blank" href="#">Book A
-                                            Service</a></li>
+                                    <li id="menu-item-441"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-441 "><a
+                                            rel="noopener" href="#" data-bs-toggle="modal" data-bs-target="#bookNowModal">Book A Service</a></li>
                                 </ul>
                             </div>
                         </nav><!-- /#menu-primary -->
                         <div class="mobile__nav--overlay"></div>
                     </div>
                 </div>
+                
             </header><!-- .header -->

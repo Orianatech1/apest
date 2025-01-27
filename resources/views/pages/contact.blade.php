@@ -18,18 +18,20 @@
                 <div class="contact-info__wrapper">
                     <div class="contact-info__content">
                         <div class="entry__content" tabindex="0" style="color: #666666">
-                            <h3 style="text-align: center;">AP Skin Clinic</h3>
+                            <h3 style="text-align: center;">AP aesthetics</h3>
                             <p style="text-align: center;">
-                                <a href="" target="_blank" rel="noopener">Camp Pune<br />Camp Pune</a>
+                                <a href="https://maps.app.goo.gl/NiHABrwZX9vNN8ss6" target="_blank" rel="noopener">1ST FLOOR, EAST WING, <br />AURORA TOWERS , MG ROAD CAMP, PUNE 411001</a>
                             </p>
                             <p style="text-align: center;">
-                                <a href="tel:1234567890" target="_self">1234567890</a>
+                                <a href="tel:+917599329999" target="_self"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg> 75 99 32 9999</a>
                             </p>
-                            <p style="text-align: center;">
+                            <!-- <p style="text-align: center;">
                                 Mon-Fri: 10:00 AM – 7:00 PM<br />
                                 Sat: 10:00 AM – 6:00 PM<br />
                                 Sun: CLOSED
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                 </div>

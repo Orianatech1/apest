@@ -16,7 +16,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 hero__content entry__content">
-                            <h1>Expert Skincare in Pune, Camp</h1>
+                            <h1>Expert Hair & Skin Care in MG Road,Pune</h1>
                             <div class="hero__button hero__button--light">
                                 <a class="btn btn--light" href="#" target="_blank">Book Now</a>
                             </div>
@@ -36,9 +36,9 @@
             <div class="content-area__flex content-area__flex--image-center">
                 <div class="content-area__content content--medium content--centered text--dark">
                     <div class="entry__content" tabindex="0">
-                        <h2>Great Skin. Made Easy.</h2>
+                        <h2>Discover Effortless hair & Skin Wellness</h2>
                         <p>
-                            At AP Skin Clinic, we bring an integrated approach to skincare – combining 
+                            At AP aesthetic, we bring an integrated approach to skincare – combining 
                             advanced skin diagnostics, signature facial and aesthetic treatments, overseen 
                             by a board-certified dermatologist, Dr. Adity, and state-of-the-art clinical skincare, 
                             all personalized by our skin experts for your unique needs.
@@ -370,13 +370,13 @@
             <div class="contact-info__wrapper">
                 <div class="contact-info__content">
                     <div class="entry__content" tabindex="0" style="color: #666666;">
-                        <h3 style="text-align: center;">AP Skin Clinic</h3>
+                        <h3 style="text-align: center;">AP Aesthetics</h3>
                         <p style="text-align: center;">
-                            Camp Pune<br />
-                            Camp Pune
+                        AP aesthetics 1ST FLOOR, EAST WING, AURORA TOWERS ,<br /> MG ROAD CAMP, PUNE 411001
+                        
                         </p>
                         <p style="text-align: center;">
-                            <a href="tel:1234567890" target="_self">123456789</a>
+                            <a href="tel:+917599329999" target="_self">75 99 32 9999</a>
                         </p>
                         <p style="text-align: center;">
                             Mon-Fri: 10:00 AM – 7:00 PM<br />
@@ -389,4 +389,5 @@
         </div>
     </div>
 </div>
+
 @endsection

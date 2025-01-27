@@ -3,7 +3,7 @@
 @section('main-content')
 <header class="page__header" style="background-image: url({{ asset('wp-content/uploads/2023/02/hero-interior-1.jpg') }}); background-position: center center; background-repeat: no-repeat; background-size: cover;">
     <div class="container">
-        <h1 class="hdg hdg--1" tabindex="0">Team</h1>
+        <h1 class="hdg hdg--1" tabindex="0">About Us</h1>
     </div>
 </header>
 
